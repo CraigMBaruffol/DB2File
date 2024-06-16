@@ -10,4 +10,9 @@
     <ProjectReference Include="..\DB2File.ServiceDefaults\DB2File.ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Components\Pages\Configuration\" />
+    <Folder Include="Components\Pages\JobSetup\" />
+  </ItemGroup>
+
 </Project>
