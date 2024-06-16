@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DB2File.ApiService\DB2File.ApiService.csproj" />
     <ProjectReference Include="..\DB2File.Web\DB2File.Web.csproj" />
+    <ProjectReference Include="..\DB2File.WorkService\DB2File.WorkService.csproj" />
   </ItemGroup>
 
   <ItemGroup>

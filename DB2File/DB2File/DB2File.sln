@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB2File.AppHost", "DB2File.AppHost\DB2File.AppHost.csproj", "{1E45CB2B-77C5-43AD-BA4D-F47B9C112760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB2File.AppHost", "DB2File.AppHost\DB2File.AppHost.csproj", "{1E45CB2B-77C5-43AD-BA4D-F47B9C112760}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB2File.ServiceDefaults", "DB2File.ServiceDefaults\DB2File.ServiceDefaults.csproj", "{2D48E97A-30DD-4EA1-82B5-CFA0A8643AA2}"
 EndProject
@@ -11,6 +11,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB2File.Web", "DB2File.Web\DB2File.Web.csproj", "{F80BBDAD-BF85-4182-ADB6-56FE81B69D32}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB2File.Tests", "DB2File.Tests\DB2File.Tests.csproj", "{F7218B13-8689-4D8F-9B4D-6CE33CAD0F0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB2File.WorkService", "DB2File.WorkService\DB2File.WorkService.csproj", "{504BFAE4-EDFF-4994-B927-C10B0F3DBC78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{F7218B13-8689-4D8F-9B4D-6CE33CAD0F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7218B13-8689-4D8F-9B4D-6CE33CAD0F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7218B13-8689-4D8F-9B4D-6CE33CAD0F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504BFAE4-EDFF-4994-B927-C10B0F3DBC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504BFAE4-EDFF-4994-B927-C10B0F3DBC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504BFAE4-EDFF-4994-B927-C10B0F3DBC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504BFAE4-EDFF-4994-B927-C10B0F3DBC78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
