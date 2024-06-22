@@ -13,6 +13,7 @@
   <ItemGroup>
     <Folder Include="Components\Pages\Configuration\" />
     <Folder Include="Components\Pages\JobSetup\" />
+    <Folder Include="Components\Pages\UserManage\" />
   </ItemGroup>
 
 </Project>
