@@ -1,0 +1,7 @@
+﻿services:
+  db2fileservice:
+    image: db2fileservice
+    build:
+      context: .
+      dockerfile: DB2FileService/Dockerfile
+
