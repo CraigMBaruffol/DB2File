@@ -2,6 +2,7 @@ using DB2FileService.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 
 builder.Services.AddApplicationServices(builder.Configuration);
@@ -22,8 +23,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapStaticAssets();
+app.MapRazorPages()
+    .WithStaticAssets();
 
 app.Run();
